@@ -25,7 +25,7 @@ Site: https://scribe-notation.herokuapp.com/
 
 This app will not work on github.io and must be deployed to a hosting service like Heroku. The app itself is simple to use, simply navigate to the 'Notes' page and start creating notes! You can read, create, and delete notes.
 
-![Demo Pic #1](./assets/11-express-homework-demo-01.png)
+![](./assets/11-express-homework-demo-01.png)
 ![Demo Pic #2](./assets/11-express-homework-demo-02.png)
 
 ## Contributing
