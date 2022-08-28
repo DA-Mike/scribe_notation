@@ -2,7 +2,6 @@ const notes = require('express').Router();
 const { v4: uuidv4 } = require('uuid');
 const { readAndAppend, readFromFile, writeToFile } = require('../helpers/fsUtils');
 const fs = require('fs');
-// const activeNotes = require('../db/db.json');
 
 // GET Route for retrieving all notes
 notes.get('/', (req, res) =>
@@ -11,12 +10,9 @@ notes.get('/', (req, res) =>
 
 // POST Route for submitting notes
 notes.post('/', (req, res) => {
-  // Destructuring assignment for the items in req.body
   const { title, text, id } = req.body;
 
-  // If all the required properties are present
   if (title && text) {
-    // Variable for the object we will save
     const newNote = {
       title,
       text,
@@ -52,7 +48,7 @@ notes.delete('/:id', (req, res) => {
 
                         const response = {
                             status: 'success',
-                            body: data,
+                            body: parsedData,
                         };
                     
                         res.json(response);
