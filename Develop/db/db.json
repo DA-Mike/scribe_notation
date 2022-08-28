@@ -3,25 +3,5 @@
         "title": "Test Title",
         "text": "Test text",
         "id": "Test ID"
-    },
-    {
-        "title": "test1",
-        "text": "test",
-        "id": "23597ad4-e975-4edf-96b4-53c3f7d513d4"
-    },
-    {
-        "title": "test2",
-        "text": "test",
-        "id": "eb9dc130-bf5b-4ec9-aa65-d5813a70de40"
-    },
-    {
-        "title": "test3",
-        "text": "test",
-        "id": "3012d5ef-cd7d-4893-9586-cd059a185f82"
-    },
-    {
-        "title": "test4",
-        "text": "test",
-        "id": "1d7fd858-76bf-4f16-b73d-d1a2ec084eba"
     }
 ]
