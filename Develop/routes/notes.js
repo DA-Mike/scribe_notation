@@ -46,7 +46,7 @@ notes.delete('/:id', (req, res) => {
             } else {
                 let parsedData = JSON.parse(data);
                 for (i = 0; i < parsedData.length; i++) {
-                    if (parsedData[i].id == id) {
+                    if (parsedData[i].id === id) {
                         parsedData.splice(i,1);
                         writeToFile('./db/db.json', parsedData);
 
