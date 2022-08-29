@@ -5,7 +5,7 @@
 
 Scribe Notation is a note taking app which utilizes node.js and express.js. The app is currently hosted on Heroku.
 
-My motivation for this project was to learn more about express.js and apply my knowledge to create API routes for a site. This site utilizes GET, POST, and DELETE routes for the notes. Storage is a simple JSON file.
+My motivation for this project was to learn more about express.js and apply my knowledge to create API routes for a site. This site utilizes GET, POST, and DELETE routes for retrieving, creating, and deleting the notes. Storage is a simple JSON file. This was a fun experience and has certainly broadened my understanding of non-static sites, APIs, and javascript in general.
 
 ## Table of Contents
 - [Installation](#Installation)
